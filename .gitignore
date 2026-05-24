@@ -1,0 +1,76 @@
+# ====================================================================
+# Quarto Core Build Outputs
+# ====================================================================
+# Ignore the local preview/render cache and server directory
+/.quarto/
+
+# Ignore the default output directory where HTML/PDF sites are rendered
+# NOTE: If you are using GitHub Pages WITHOUT a custom publish action 
+# (i.e., you check in the rendered HTML to track progress), comment this line out.
+/_site/
+
+# If you render your project to a custom directory like 'docs/' or 'public/', 
+# but prefer to publish via automated CI/CD actions, add them here:
+# /docs/
+# /public/
+
+# ====================================================================
+# Jupyter Notebook & Python Artifacts (if using Python engines)
+# ====================================================================
+# Jupyter notebook checkpoints and execution states
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.poetry/
+
+# Local Python Environments
+.venv/
+env/
+venv/
+ENV/
+
+# ====================================================================
+# R / RStudio Artifacts (if using Knitr engines)
+# ====================================================================
+# R project infrastructure and user preferences
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+.RUserData
+
+# Knitr/R Markdown execution cache (highly volatile)
+/*_cache/
+/*_files/
+
+# ====================================================================
+# Operating System & IDE Specific Files
+# ====================================================================
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail caches
+Thumbs.db
+ehthumbs.db
+
+# VS Code and JetBrains local project settings
+.vscode/
+.idea/
+
+# ====================================================================
+# Security & Credentials (CRITICAL for Institutional/Data Audits)
+# ====================================================================
+# Local environment variables, API keys, database credentials
+.env
+.env.local
+.env.*.local
+*.secret
