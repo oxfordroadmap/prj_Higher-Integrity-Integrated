@@ -2,12 +2,13 @@ project:
   type: website
 
 website:
-  title: "Higher Integrity Integrated"
+  title: "節節高 (Higher Integrity Integrated, HII)"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: 首頁
+      - href: about.qmd
+        text: 關於
 
 format:
   html:
