@@ -13,10 +13,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: [lux, brand]
+      dark: [lux, brand, dark-fix.scss]
     css: styles.css
     toc: true
-
-
-

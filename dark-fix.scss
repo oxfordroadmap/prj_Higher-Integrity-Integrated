@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+
+// Force the baseline colors to invert for the dark stylesheet
+$body-bg: #1a1a1a;
+$body-color: #f8f9fa;
+$navbar-bg: #111111;
+$navbar-fg: #f8f9fa;
+$link-color: #adb5bd;
+
+/*-- scss:rules --*/
+
+/*-- scss:rules --*/
+
+// 1. Force the main page title to be crisp white
+.title h1, 
+h1.title {
+  color: #ffffff !important; 
+}
+
+// 2. Force the Table of Contents title to be clear silver-gray
+.toc-title, 
+#toc-title,
+nav#toc th {
+  color: #adb5bd !important;
+}
+
+// 3. Global safeguard: Force ALL heading levels in the content area 
+//    to stay bright and readable against the dark background
+.quarto-container {
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #f8f9fa !important;
+  }
+}

@@ -1,1 +1,21 @@
 /* css styles */
+/* --- Adjust Chinese Typography --- */
+body {
+  /* Lux defaults to font-weight 300 (light). Let's boost it to 400 (normal) or 500 for clarity */
+  font-weight: 400; 
+  
+  /* Fallback chain optimizing for clean Chinese reading across Windows, Mac, and iOS */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
+               "PingFang TC", "Apple LiGothic Medium", "Noto Sans TC", "Microsoft JhengHei", 
+               微軟正黑體, sans-serif;
+               
+  /* Slight boost to line height gives dense Chinese characters room to breathe */
+  line-height: 1.7; 
+}
+
+/* Optional: If bold text looks too faint, you can force it thicker too */
+strong, b {
+  font-weight: 800;
+}
+
+
